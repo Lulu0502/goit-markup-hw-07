@@ -1,0 +1,36 @@
+.clients-container {
+    align-items: center;
+    text-align: center;
+}
+.clients-list {
+    display: flex;
+    align-items: center;
+
+}
+.clients-item {
+    display: flex;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    transition-property: color border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-item:last-child {
+    margin-right: 0px;
+}
+.clients-item:hover,
+.clients-item:focus {
+    color: #2196f3;
+    border-color: #2196f3;
+}
+.clients-icon {
+    fill: currentColor;
+}
