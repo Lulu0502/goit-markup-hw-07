@@ -13,11 +13,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header-link:hover,
-.header-link:focus {
-    color: #2196F3;
+    &:hover,
+    &:focus {
+        color: #2196F3;
+    }
 }
 .sitenav-link {
     display: block;
@@ -34,11 +34,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        color: #2196F3;
+    }
+    &.current {
+        color: #2196f3;
+    }
 }
-.sitenav-link.current {
-    color: #2196f3;
-}
-.sitenav-link:focus,
-.sitenav-link:hover {
-    color: #2196F3;
-}
+

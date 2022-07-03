@@ -12,13 +12,20 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-input::placeholder {
-    font-family: inherit;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.2;
-    color: #757575;
+
+    &::placeholder {
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.2;
+        color: #757575;
+    }
+    &:focus {
+        border-color: #2196f3;
+    }
+    &:focus+& {
+        fill: #2196F3;
+    }
 }
 .modal-label {
     font-size: 12px;
@@ -26,9 +33,4 @@
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 1);
 }
-.modal-input:focus {
-    border-color: #2196f3;
-}
-.modal-input:focus+.modal-icon {
-    fill: #2196F3;
-}
+

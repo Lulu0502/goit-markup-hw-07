@@ -1,8 +1,8 @@
 .page-header {
     border-bottom: 1px solid #ECECEC;
-}
-.page-header>.current {
-    border-bottom: 0px;
+    &.current {
+        border-bottom: 0px;
+    }
 }
 .header-list {
     display: flex;
@@ -28,7 +28,8 @@
     display: flex;
     margin-right: 50px;
     margin-left: auto;
-}
-.header-contact-link:last-child {
-    margin-right: 0px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
 }

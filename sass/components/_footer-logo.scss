@@ -11,9 +11,10 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.logo-footer:focus {
-    margin-top: 60px;
-    margin-bottom: 20px;
-    color: #2196F3;
+
+    &:focus {
+        margin-top: 60px;
+        margin-bottom: 20px;
+        color: #2196F3;
+    }
 }

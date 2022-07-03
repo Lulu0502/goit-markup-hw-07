@@ -1,8 +1,8 @@
 .filter:not(:last-child) {
     margin-right: 8px;
-}
-.filter :last-child {
-    margin-right: 0px;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 .filter-text {
     padding: 20px 24px;

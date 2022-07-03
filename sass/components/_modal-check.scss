@@ -13,22 +13,24 @@
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: rgba(117, 117, 117, 1)
+    color: rgba(117, 117, 117, 1);
+
+    & a {
+        color: rgba(33, 150, 243, 1);
+        margin-left: 4px;
+    }
+    & span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 15px;
+        margin-right: 7px;
+        border: 1px solid rgba(33, 33, 33, 1);
+        border-radius: 2px;
+    }
 }
-.check-text a {
-    color: rgba(33, 150, 243, 1);
-    margin-left: 4px;
-}
-.check-text span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 16px;
-    height: 15px;
-    margin-right: 7px;
-    border: 1px solid rgba(33, 33, 33, 1);
-    border-radius: 2px;
-}
+
 .check-icon {
     fill: transparent;
 }

@@ -6,6 +6,7 @@
     display: flex;
 }
 .work-container {
+    @include section (94px);
     margin: 0px 0px;
     padding-top: 0px;
 }
@@ -15,6 +16,10 @@
     margin-left: 0px;
     max-width: 100%;
     height: auto;
+
+    .list &:last-child {
+        margin-right: 0px;
+    }
 }
 .work__box {
     position: relative;
@@ -22,22 +27,16 @@
 .work__text {
     position: absolute;
     bottom: 0;
-    right: 0;
-    width: 100%;
+    width: 370px;
+    height: 70px;
     padding-top: 27px;
     padding-bottom: 27px;
     padding-left: 83px;
     padding-right: 82px;
-
     font-family: inherit;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-align: center;
+
+    @include fonts (700, 14px, 1.2, 0.03em, center);
+
     color: #ffffff;
     background-color: rgba(47, 48, 58, 0.8);
-}
-.list .work__item:last-child {
-    margin-right: 0px;
 }

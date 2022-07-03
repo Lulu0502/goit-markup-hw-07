@@ -1,7 +1,8 @@
-@import './base/base';
-
 @import './utils/vars';
 @import './utils/hidden';
+@import './utils/current';
+
+@import './base/base';
 
 @import './components/header';
 @import './components/nav';
