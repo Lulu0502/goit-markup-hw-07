@@ -1,0 +1,34 @@
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+.page-header>.current {
+    border-bottom: 0px;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.header-link-icon {
+    display: inline-block;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.header-contact-link {
+    display: flex;
+    margin-right: 50px;
+    margin-left: auto;
+}
+.header-contact-link:last-child {
+    margin-right: 0px;
+}

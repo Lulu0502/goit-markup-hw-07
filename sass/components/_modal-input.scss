@@ -1,0 +1,34 @@
+.modal-input {
+    padding-left: 42px;
+    border: 1px Solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    font-family: inherit;
+    color: #212121;
+    background-color: transparent;
+    outline: transparent;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input::placeholder {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #757575;
+}
+.modal-label {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 1);
+}
+.modal-input:focus {
+    border-color: #2196f3;
+}
+.modal-input:focus+.modal-icon {
+    fill: #2196F3;
+}
